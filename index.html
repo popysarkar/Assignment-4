@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- Link CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section id="product-area">
+        <div class="container">
+            <div class="product-content">
+
+                <div class="product-image">
+                    <img src="images/mac.png" alt="">
+                </div>
+
+                <div class="product-detail">
+
+                    <div class="product-introduction">
+                        <h1 class="product-title">Customaize your Blue 24-inch iMac with Apple M1 chip</h1>
+                        <p class="product-discrib">
+                            Apple M1 chip with 8-core Cpu with 4 performance cores and 4 efficiency cores,
+                            7-core GPU, and 16-core Neurall Engine 8GB unified memory 256GB SSD storage Two
+                            Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard - Us English
+                        </p>
+                    </div>
+
+                    <div class="memory-info">
+                        <h4>Memory</h4>
+                        <button id="first-divice-unified-memory" class="product-option">8GB unified memory
+                        </button>
+                        <button id="secound-divice-unified-memory" class="product-option">16GB unified memory
+                        </button>
+                    </div>
+
+                    <div class="storage-info">
+                        <h4>Storage</h4>
+                        <button id="first-storage" class="product-option">256GB SSD storage</button>
+                        <button id="secound-storage" class="product-option">512GB SSD storage</button>
+                        <button id="third-storage" class="product-option">1TB SSD storage</button>
+                    </div>
+
+                    <div class="delivery-info">
+                        <h4>Choose your delivery option</h4>
+                        <button id="free-shipping" class="product-option">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="paid-shipping" class="product-option">Friday, Aug 21 Delivery change $20</button>
+                    </div>
+
+                    <div class="product-price-calc">
+                        <div class="price-calc">
+                            <span class="searvice-title">Best Price</span>
+                            <span class="price">$
+                                <span id="fixed-price" class="price-count">1299</span></span>
+                        </div>
+                        <div class="price-calc">
+                            <span class="searvice-title">Extra Memory Cost</span>
+                            <span class="price">$
+                                <span id="memory-cost" class="price-count">0</span></span>
+                        </div>
+                        <div class="price-calc">
+                            <span class="searvice-title">Extra Storage Cost</span>
+                            <span class="price">$
+                                <span id="storage-cost" class="price-count">0</span></span>
+                        </div>
+                        <div class="price-calc delivery-charge">
+                            <span class="searvice-title">Delivery Charge</span>
+                            <span class="price">$
+                                <span id="shipping-cost" class="price-count">0</span></span>
+                        </div>
+                        <div class="price-calc">
+                            <span class="searvice-title">Total Price</span>
+                            <span class="price">$
+                                <span id="total-cost" class="price-count">1299</span></span>
+                        </div>
+                    </div>
+                    <!-- Promo Area -->
+                    <div class="promo-area">
+                        <h4>Add promo code</h4>
+                        <div class="input-group">
+                            <input id="cupon-code" type="text">
+                            <button id="apply-btn">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h2 class="total-price">Total: $<span id="grand-total-cost" class="total">1299</span></h2>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
